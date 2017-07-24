@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C70AD3D1F24C1D300C4D93B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD3C1F24C1D300C4D93B /* AppDelegate.swift */; };
+		9C70AD421F24C1D300C4D93B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C70AD401F24C1D300C4D93B /* Main.storyboard */; };
+		9C70AD441F24C1D300C4D93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C70AD431F24C1D300C4D93B /* Assets.xcassets */; };
+		9C70AD471F24C1D300C4D93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C70AD451F24C1D300C4D93B /* LaunchScreen.storyboard */; };
+		9C70AD581F24CBB300C4D93B /* GLGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD571F24CBB300C4D93B /* GLGamesViewController.swift */; };
+		9C70AD5A1F24CBF400C4D93B /* GLGameDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD591F24CBF400C4D93B /* GLGameDetailsViewController.swift */; };
+		9C70AD5D1F24CC2700C4D93B /* GLGameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD5C1F24CC2700C4D93B /* GLGameTableViewCell.swift */; };
+		9C70AD5F1F24CC5F00C4D93B /* GLURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD5E1F24CC5F00C4D93B /* GLURL.swift */; };
+		9C70AD621F24CF6200C4D93B /* GLConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD611F24CF6200C4D93B /* GLConnectionManager.swift */; };
+		9C70AD641F24D51100C4D93B /* GLDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD631F24D51100C4D93B /* GLDataController.swift */; };
+		9C70AD661F24D64000C4D93B /* GLGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD651F24D64000C4D93B /* GLGame.swift */; };
+		9C70AD681F24E12D00C4D93B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD671F24E12D00C4D93B /* Strings.swift */; };
+		9C70AD6B1F251D3B00C4D93B /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD6A1F251D3B00C4D93B /* UIImageView.swift */; };
+		9C70AD6D1F25230B00C4D93B /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD6C1F25230B00C4D93B /* UIImage.swift */; };
+		9C70AD6F1F261BAC00C4D93B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD6E1F261BAC00C4D93B /* String.swift */; };
+		9C70AD711F26371F00C4D93B /* GLViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD701F26371F00C4D93B /* GLViewManager.swift */; };
+		9C70AD731F2639A500C4D93B /* GLGamesViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD721F2639A500C4D93B /* GLGamesViewExtension.swift */; };
+		9C70AD751F263A3E00C4D93B /* GLQRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD741F263A3E00C4D93B /* GLQRReaderViewController.swift */; };
+		9C70AD771F268C2F00C4D93B /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70AD761F268C2F00C4D93B /* UIView.swift */; };
+		C8E78B28CEA6896761BAFDA1 /* Pods_GamesList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A3333F3B298CFF85D4AC8 /* Pods_GamesList.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		889A3333F3B298CFF85D4AC8 /* Pods_GamesList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GamesList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C70AD391F24C1D300C4D93B /* GamesList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamesList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C70AD3C1F24C1D300C4D93B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C70AD411F24C1D300C4D93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C70AD431F24C1D300C4D93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C70AD461F24C1D300C4D93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C70AD481F24C1D300C4D93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C70AD571F24CBB300C4D93B /* GLGamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GLGamesViewController.swift; path = ViewControllers/GLGamesViewController.swift; sourceTree = "<group>"; };
+		9C70AD591F24CBF400C4D93B /* GLGameDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GLGameDetailsViewController.swift; path = ViewControllers/GLGameDetailsViewController.swift; sourceTree = "<group>"; };
+		9C70AD5C1F24CC2700C4D93B /* GLGameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GLGameTableViewCell.swift; path = ViewControllers/Cells/GLGameTableViewCell.swift; sourceTree = "<group>"; };
+		9C70AD5E1F24CC5F00C4D93B /* GLURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLURL.swift; sourceTree = "<group>"; };
+		9C70AD611F24CF6200C4D93B /* GLConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLConnectionManager.swift; sourceTree = "<group>"; };
+		9C70AD631F24D51100C4D93B /* GLDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLDataController.swift; sourceTree = "<group>"; };
+		9C70AD651F24D64000C4D93B /* GLGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLGame.swift; sourceTree = "<group>"; };
+		9C70AD671F24E12D00C4D93B /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		9C70AD6A1F251D3B00C4D93B /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageView.swift; path = Extensions/UIImageView.swift; sourceTree = "<group>"; };
+		9C70AD6C1F25230B00C4D93B /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Extensions/UIImage.swift; sourceTree = "<group>"; };
+		9C70AD6E1F261BAC00C4D93B /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = String.swift; path = Extensions/String.swift; sourceTree = "<group>"; };
+		9C70AD701F26371F00C4D93B /* GLViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLViewManager.swift; sourceTree = "<group>"; };
+		9C70AD721F2639A500C4D93B /* GLGamesViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GLGamesViewExtension.swift; path = ViewControllers/GLGamesViewExtension.swift; sourceTree = "<group>"; };
+		9C70AD741F263A3E00C4D93B /* GLQRReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GLQRReaderViewController.swift; path = ViewControllers/GLQRReaderViewController.swift; sourceTree = "<group>"; };
+		9C70AD761F268C2F00C4D93B /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Extensions/UIView.swift; sourceTree = "<group>"; };
+		A4413B06407502871E9CAC2D /* Pods-GamesList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamesList.release.xcconfig"; path = "Pods/Target Support Files/Pods-GamesList/Pods-GamesList.release.xcconfig"; sourceTree = "<group>"; };
+		B3F8423AD123D1887268066E /* Pods-GamesList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GamesList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GamesList/Pods-GamesList.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C70AD361F24C1D300C4D93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E78B28CEA6896761BAFDA1 /* Pods_GamesList.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF92E4EA497377CCABC998D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3F8423AD123D1887268066E /* Pods-GamesList.debug.xcconfig */,
+				A4413B06407502871E9CAC2D /* Pods-GamesList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6CD2AEE39FA4E1ABE23463C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				889A3333F3B298CFF85D4AC8 /* Pods_GamesList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C70AD301F24C1D300C4D93B = {
+			isa = PBXGroup;
+			children = (
+				9C70AD3B1F24C1D300C4D93B /* GamesList */,
+				9C70AD3A1F24C1D300C4D93B /* Products */,
+				3BF92E4EA497377CCABC998D /* Pods */,
+				6CD2AEE39FA4E1ABE23463C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C70AD3A1F24C1D300C4D93B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C70AD391F24C1D300C4D93B /* GamesList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C70AD3B1F24C1D300C4D93B /* GamesList */ = {
+			isa = PBXGroup;
+			children = (
+				9C70AD691F251CF700C4D93B /* Extensions */,
+				9C70AD4F1F24CAFB00C4D93B /* Connection Managers */,
+				9C70AD501F24CB0300C4D93B /* Data Controllers */,
+				9C70AD521F24CB1100C4D93B /* Models */,
+				9C70AD531F24CB1E00C4D93B /* Storyboards */,
+				9C70AD4E1F24CAEF00C4D93B /* Support Files */,
+				9C70AD511F24CB0A00C4D93B /* View Controllers */,
+			);
+			path = GamesList;
+			sourceTree = "<group>";
+		};
+		9C70AD4E1F24CAEF00C4D93B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C70AD3C1F24C1D300C4D93B /* AppDelegate.swift */,
+				9C70AD431F24C1D300C4D93B /* Assets.xcassets */,
+				9C70AD481F24C1D300C4D93B /* Info.plist */,
+				9C70AD671F24E12D00C4D93B /* Strings.swift */,
+				9C70AD701F26371F00C4D93B /* GLViewManager.swift */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		9C70AD4F1F24CAFB00C4D93B /* Connection Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9C70AD611F24CF6200C4D93B /* GLConnectionManager.swift */,
+				9C70AD5E1F24CC5F00C4D93B /* GLURL.swift */,
+			);
+			name = "Connection Managers";
+			sourceTree = "<group>";
+		};
+		9C70AD501F24CB0300C4D93B /* Data Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C70AD631F24D51100C4D93B /* GLDataController.swift */,
+			);
+			name = "Data Controllers";
+			sourceTree = "<group>";
+		};
+		9C70AD511F24CB0A00C4D93B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C70AD5B1F24CC0300C4D93B /* Cells */,
+				9C70AD591F24CBF400C4D93B /* GLGameDetailsViewController.swift */,
+				9C70AD571F24CBB300C4D93B /* GLGamesViewController.swift */,
+				9C70AD721F2639A500C4D93B /* GLGamesViewExtension.swift */,
+				9C70AD741F263A3E00C4D93B /* GLQRReaderViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9C70AD521F24CB1100C4D93B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C70AD651F24D64000C4D93B /* GLGame.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9C70AD531F24CB1E00C4D93B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9C70AD451F24C1D300C4D93B /* LaunchScreen.storyboard */,
+				9C70AD401F24C1D300C4D93B /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		9C70AD5B1F24CC0300C4D93B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9C70AD5C1F24CC2700C4D93B /* GLGameTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		9C70AD691F251CF700C4D93B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C70AD6E1F261BAC00C4D93B /* String.swift */,
+				9C70AD6C1F25230B00C4D93B /* UIImage.swift */,
+				9C70AD6A1F251D3B00C4D93B /* UIImageView.swift */,
+				9C70AD761F268C2F00C4D93B /* UIView.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C70AD381F24C1D300C4D93B /* GamesList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C70AD4B1F24C1D300C4D93B /* Build configuration list for PBXNativeTarget "GamesList" */;
+			buildPhases = (
+				2D765A374CA64AC05AD2200E /* [CP] Check Pods Manifest.lock */,
+				9C70AD351F24C1D300C4D93B /* Sources */,
+				9C70AD361F24C1D300C4D93B /* Frameworks */,
+				9C70AD371F24C1D300C4D93B /* Resources */,
+				F4C8838C8497058695E030B0 /* [CP] Embed Pods Frameworks */,
+				6FC9161ACD9BE1D295C17FEA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GamesList;
+			productName = GamesList;
+			productReference = 9C70AD391F24C1D300C4D93B /* GamesList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C70AD311F24C1D300C4D93B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GL;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Leandro Sousa";
+				TargetAttributes = {
+					9C70AD381F24C1D300C4D93B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3UD89N84N2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9C70AD341F24C1D300C4D93B /* Build configuration list for PBXProject "GamesList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C70AD301F24C1D300C4D93B;
+			productRefGroup = 9C70AD3A1F24C1D300C4D93B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C70AD381F24C1D300C4D93B /* GamesList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C70AD371F24C1D300C4D93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C70AD471F24C1D300C4D93B /* LaunchScreen.storyboard in Resources */,
+				9C70AD441F24C1D300C4D93B /* Assets.xcassets in Resources */,
+				9C70AD421F24C1D300C4D93B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D765A374CA64AC05AD2200E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6FC9161ACD9BE1D295C17FEA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GamesList/Pods-GamesList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4C8838C8497058695E030B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GamesList/Pods-GamesList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C70AD351F24C1D300C4D93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C70AD771F268C2F00C4D93B /* UIView.swift in Sources */,
+				9C70AD641F24D51100C4D93B /* GLDataController.swift in Sources */,
+				9C70AD6D1F25230B00C4D93B /* UIImage.swift in Sources */,
+				9C70AD681F24E12D00C4D93B /* Strings.swift in Sources */,
+				9C70AD5D1F24CC2700C4D93B /* GLGameTableViewCell.swift in Sources */,
+				9C70AD3D1F24C1D300C4D93B /* AppDelegate.swift in Sources */,
+				9C70AD621F24CF6200C4D93B /* GLConnectionManager.swift in Sources */,
+				9C70AD6F1F261BAC00C4D93B /* String.swift in Sources */,
+				9C70AD731F2639A500C4D93B /* GLGamesViewExtension.swift in Sources */,
+				9C70AD661F24D64000C4D93B /* GLGame.swift in Sources */,
+				9C70AD6B1F251D3B00C4D93B /* UIImageView.swift in Sources */,
+				9C70AD581F24CBB300C4D93B /* GLGamesViewController.swift in Sources */,
+				9C70AD751F263A3E00C4D93B /* GLQRReaderViewController.swift in Sources */,
+				9C70AD711F26371F00C4D93B /* GLViewManager.swift in Sources */,
+				9C70AD5F1F24CC5F00C4D93B /* GLURL.swift in Sources */,
+				9C70AD5A1F24CBF400C4D93B /* GLGameDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C70AD401F24C1D300C4D93B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C70AD411F24C1D300C4D93B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C70AD451F24C1D300C4D93B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C70AD461F24C1D300C4D93B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C70AD491F24C1D300C4D93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C70AD4A1F24C1D300C4D93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C70AD4C1F24C1D300C4D93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F8423AD123D1887268066E /* Pods-GamesList.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3UD89N84N2;
+				INFOPLIST_FILE = GamesList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.leomesou.GamesList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9C70AD4D1F24C1D300C4D93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4413B06407502871E9CAC2D /* Pods-GamesList.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3UD89N84N2;
+				INFOPLIST_FILE = GamesList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.leomesou.GamesList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C70AD341F24C1D300C4D93B /* Build configuration list for PBXProject "GamesList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C70AD491F24C1D300C4D93B /* Debug */,
+				9C70AD4A1F24C1D300C4D93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C70AD4B1F24C1D300C4D93B /* Build configuration list for PBXNativeTarget "GamesList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C70AD4C1F24C1D300C4D93B /* Debug */,
+				9C70AD4D1F24C1D300C4D93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C70AD311F24C1D300C4D93B /* Project object */;
+}
